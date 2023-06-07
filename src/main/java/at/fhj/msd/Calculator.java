@@ -26,6 +26,6 @@ public class Calculator {
         while(number > 1){
             faculty *= number--;
         }
-        return 0;
+        return faculty;
     }
 }
