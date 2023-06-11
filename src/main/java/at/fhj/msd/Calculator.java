@@ -21,4 +21,11 @@ public class Calculator {
         double produkt = number1 * number2;
         return produkt;
     }
+    public double calcFaculty(double number){
+        double faculty = 1;
+        while(number > 1){
+            faculty *= number--;
+        }
+        return faculty;
+    }
 }
