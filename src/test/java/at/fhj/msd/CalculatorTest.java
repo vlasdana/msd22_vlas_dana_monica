@@ -55,6 +55,13 @@ public class CalculatorTest {
         double result = calculator.divide(3, 9);
         assertEquals(0.333, result, 0.001);
     }
+    @Test
+    public void testDivision04() {
+        assertThrows(ArithmeticException.class, () -> {
+            calculator.divide(5, 0);
+        });
+
+    }
 
     @Test
     public void testDivision02() {
