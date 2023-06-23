@@ -40,4 +40,5 @@ This project was developed by [Dana Vlas] . If you would like to contribute to i
 - [Exercise 2](exercise2.md)
 - [Exercise 3](exercise3.md)
 - [Exercise 5](exercise5.md)
+- [Exercise 6](exercise6.md)
 - [log4j2.xml.template](log4j2.xml.template)
