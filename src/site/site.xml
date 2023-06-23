@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Dana Vlas Documentation Demo">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <bannerLeft>
+        <name>Maven</name>
+        <src>https://maven.apache.org/images/apache-maven-project.png</src>
+        <href>https://maven.apache.org/</href>
+    </bannerLeft>
+    <bannerRight>
+        <src>https://maven.apache.org/images/maven-small.gif</src>
+    </bannerRight>
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html"/>
+            <item name="Test Dana Vlas" href="test.html"/>
+            <item name="Good style" href="good_style.html"/>
+            <item name="APIdocs" href="/apidocs/index.html" />
+        </menu>
+        <menu ref="reports"/>
+        <links>
+        </links>
+        <menu ref="reports"/>
+    </body>
+</project>
